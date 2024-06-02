@@ -1764,7 +1764,9 @@ form .iputs label {
 .about {
     margin-bottom: 209px;
 }
-
+.btn-m {
+    margin-top: 35px;
+}
 @media (max-width:920px) {
     .nav-icon {
         gap: 0 4px;
