@@ -38,18 +38,27 @@ $('.multiple-items').slick({
       ]   
 });
 
-// productsDetails.map((product, i) => {
-//     product.addEventListener('click', () => {
-//         location.href = `details.html?index=${i}`;
-//     });
-// });
+productsDetails.map((product, i) => {
+    product.addEventListener('click', () => {
+        location.href = `details.html?index=${i}`;
+    });
+});
 
-// const params = new URLSearchParams(window.location.search);
-// const index = parseInt(params.get('index'));
-// // console.log(params);
-// // console.log(index);
+const params = new URLSearchParams(window.location.search);
+const index = parseInt(params.get('index'));
+// console.log(params);
+// console.log(index);
 
-// if (!isNaN(index) && index >= 0 && index < indexs.length) {
-//     // console.log(indexs[index]);
-//     indexs[index].classList.replace('d-none' , 'd-block')
-// } 
+if (!isNaN(index) && index >= 0 && index < indexs.length) {
+    // console.log(indexs[index]);
+    indexs[index].classList.replace('d-none' , 'd-block')
+} 
+
+
+let productCategoty = Array.from(document.querySelectorAll('.product-details'))
+// console.log(productCategoty);
+productCategoty.map((product, i) => {
+    product.addEventListener('click', () => {
+        location.href = `Product.html`;
+    });
+});

@@ -48,6 +48,7 @@ li {
 
 a {
     text-decoration: none;
+    padding: 0;
 }
 
 
@@ -106,10 +107,11 @@ a {
 
 .header {
     background-color: var(--back_home);
-    margin-bottom: 51px;
 
 }
-
+.navbar-brand {
+    padding: 0;
+}
 .line-left {
     width: 18px;
     height: 211px;
@@ -158,7 +160,7 @@ a {
     font-size: 24px;
     font-weight: 700;
     line-height: 29.26px;
-    margin-top: 89px;
+    margin-top: 59px;
     color: white;
 }
 
@@ -206,7 +208,7 @@ a {
 }
 
 .h-section h2 {
-    font-family: 'Josefin Sans';
+    font-family: 'Montserrat';
     font-size: 42px;
     font-weight: 700;
     line-height: 42px;
@@ -251,7 +253,7 @@ a {
     border-radius: 10%;
 }
 
-.products-c h4 {
+.products-c  h4 {
     padding-bottom: 5px;
     font-family: "Montserrat", sans-serif;
     font-size: 36px;
@@ -265,14 +267,15 @@ a {
 }
 
 .products {
-    margin-bottom: 81px;
+    padding-top: 51px;
+    padding-bottom: 51px;
 }
 
 .layer {
 
     background-color: #FECEDE;
     border-radius: 10%;
-    margin: 0 30px;
+    margin: 0 15px;
 
 
 }
@@ -282,7 +285,7 @@ a {
 }
 
 .layer h4 {
-    padding-bottom: 9px;
+    margin-bottom: 9px;
 }
 
 .slick-slide img {
@@ -313,11 +316,12 @@ li.slick-active {
     height: 10.9px;
     background: #FEBAD7;
     border-radius: 27.25px;
+    margin: 0 10px;
 
 }
 
 .h-section h2 {
-    font-family: 'Josefin Sans';
+    font-family: 'Montserrat';
     font-size: 42px;
     font-weight: 700;
     line-height: 42px;
@@ -381,7 +385,7 @@ li.slick-active {
     background-color: #FECEDE;
     border-radius: 10%;
     margin: 0 15px;
-
+    padding: 20px;
 }
 
 
@@ -394,11 +398,16 @@ li.slick-active {
     text-align: center;
 
 }
+.gatter {
+    row-gap: 40px;
+}
 
 .layer span {
     color: #151875;
     font-family: 'Poppins';
+    display: inline-block;
 
+    margin-bottom: 20px;
 
 }
 
@@ -424,14 +433,17 @@ li.slick-active {
     font-family: "Josefin Sans", sans-serif;
     font-size: 18px;
     font-weight: 400;
+    padding: 0 20px !important;
 
 }
 
 .leatest-Products .style-link li button:hover {
     color: #151875;
 }
-
-.leatest-Products .nav-pills .nav-link.active::after {
+.product-details {
+    cursor: pointer;
+}
+/* .leatest-Products .nav-pills .nav-link.active::after {
     content: '';
     position: absolute;
     color: #FB2E86;
@@ -440,10 +452,15 @@ li.slick-active {
     width: 100%;
     left: 0;
     bottom: 4px;
-}
+
+} */
 
 .leatest-Products .nav-link.active {
     color: #FD0054 !important;
+    margin: 4px 20px !important;
+    padding: 0 !important;
+    border-bottom: 1px solid #FB4997;
+    border-radius: 0;
 }
 
 .leatest-Products h2 {
@@ -460,14 +477,14 @@ li.slick-active {
 }
 
 .layer-2 {
-    padding: 50px 0 ;
+    padding: 50px 25px ;
     background-color: #ffff;
     box-shadow: #EECCD7;
     box-shadow: 0px 8px 40px 0px #31208A0D;
 
 }
 .layer-p {
-    padding:50px 0  200px;
+    padding:50px 0  130px;
 }
 
 
@@ -488,7 +505,6 @@ li.slick-active {
     line-height: 25.6px;
     text-align: center;
     color: #1A0B5B4D;
-    margin-bottom: 45px;
 
 
 }
@@ -503,7 +519,7 @@ li.slick-active {
 }
 
 .game {
-    margin-bottom: 55px;
+    padding-bottom: 55px;
 }
 
 .layer-2 img {
@@ -524,9 +540,12 @@ li.slick-active {
     padding-bottom: 35px;
 
 }
+.layer-blog:hover .hover {
+    color: var(--button_1);
+}
 
 .blog {
-    margin-bottom: 89px;
+    padding-bottom: 89px;
 }
 
 .blog h2 {
@@ -594,10 +613,12 @@ li.slick-active {
     color: #151875;
 }
 
-.item-2 .hover:hover {
+/* .item-2 .hover:hover {
     color: var(--button_1);
+} */
+.hover {
+    cursor: pointer;
 }
-
 
 .inputs input {
     text-align: start;
@@ -633,7 +654,7 @@ li.slick-active {
 
 }
 
-.footer-list ul li {
+.footer-list ul li a {
     font-family: 'Montserrat';
     font-size: 14px;
     font-weight: 400;
@@ -768,14 +789,14 @@ li.slick-active {
     color: #151875;
 }
 
-.header p {
+/* .header p {
     font-family: 'Lato';
     font-size: 12px;
     font-weight: 400;
     line-height: 14.4px;
     color: #8A8FB9;
 
-}
+} */
 
 .check {
     color: #7E81A2;
@@ -1160,12 +1181,14 @@ color: var(--text_3);
     font-size: 24px;
     line-height: 28.13px;
     color: #151875 !important;
-    padding: 0 85px 0 0;
+    padding:0;
+    margin-right: 40px;
 
 } 
 .description ul .active {
-    color: #151875 !important
-    ;
+    color: #151875 !important;
+    border-bottom: 1px  solid #151875;
+    border-radius: 0;
 }
 .description h3 {
     font-family: 'Josefin Sans';
