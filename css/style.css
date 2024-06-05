@@ -109,9 +109,11 @@ a {
     background-color: var(--back_home);
 
 }
+
 .navbar-brand {
     padding: 0;
 }
+
 .line-left {
     width: 18px;
     height: 211px;
@@ -203,9 +205,9 @@ a {
 
 }
 
-.h-section {
+/* .h-section {
     margin-bottom: 52px;
-}
+} */
 
 .h-section h2 {
     font-family: 'Montserrat';
@@ -253,7 +255,7 @@ a {
     border-radius: 10%;
 }
 
-.products-c  h4 {
+.products-c h4 {
     padding-bottom: 5px;
     font-family: "Montserrat", sans-serif;
     font-size: 36px;
@@ -274,10 +276,10 @@ a {
 .layer {
 
     background-color: #FECEDE;
-    border-radius: 10%;
-    margin: 0 15px;
-
-
+    border-radius: 43.01px;
+    margin: 0 20px;
+    padding: 20px;
+    box-shadow: 0 10px 12px 0px #C4C4C457;
 }
 
 .layer img {
@@ -294,6 +296,7 @@ a {
 
 .slick-slide {
     margin-bottom: 50px;
+    margin-top: 52px;
 }
 
 .slick-dots li button {
@@ -380,13 +383,6 @@ li.slick-active {
 }
 
 
-.layer {
-
-    background-color: #FECEDE;
-    border-radius: 10%;
-    margin: 0 15px;
-    padding: 20px;
-}
 
 
 
@@ -398,6 +394,7 @@ li.slick-active {
     text-align: center;
 
 }
+
 .gatter {
     row-gap: 40px;
 }
@@ -433,16 +430,18 @@ li.slick-active {
     font-family: "Josefin Sans", sans-serif;
     font-size: 18px;
     font-weight: 400;
-    padding: 0 20px !important;
+    padding: 0 25px !important;
 
 }
 
 .leatest-Products .style-link li button:hover {
     color: #151875;
 }
+
 .product-details {
     cursor: pointer;
 }
+
 /* .leatest-Products .nav-pills .nav-link.active::after {
     content: '';
     position: absolute;
@@ -477,14 +476,15 @@ li.slick-active {
 }
 
 .layer-2 {
-    padding: 50px 25px ;
+    padding: 50px 25px;
     background-color: #ffff;
     box-shadow: #EECCD7;
     box-shadow: 0px 8px 40px 0px #31208A0D;
 
 }
+
 .layer-p {
-    padding:50px 0  130px;
+    padding: 50px 0 150px;
 }
 
 
@@ -532,7 +532,6 @@ li.slick-active {
     font-weight: 700;
     line-height: 42px;
     color: #151875;
-    margin-bottom: 51px;
 }
 
 .layer-blog {
@@ -540,6 +539,7 @@ li.slick-active {
     padding-bottom: 35px;
 
 }
+
 .layer-blog:hover .hover {
     color: var(--button_1);
 }
@@ -1058,6 +1058,7 @@ li.slick-active {
     line-height: 14.4px;
     color: #8A8FB9;
 }
+
 .layer-4 {
     margin-bottom: 60px;
 }
@@ -1132,6 +1133,7 @@ li.slick-active {
 .layer-5 button:hover {
     background-color: #FB2E86;
 }
+
 .detailsAll h2 {
     font-family: 'Josefin Sans';
     font-size: 36px;
@@ -1139,6 +1141,7 @@ li.slick-active {
     line-height: 36px;
     color: #101750;
 }
+
 .Related p {
     font-family: ' Josefin Sans';
     font-size: 16px;
@@ -1160,36 +1163,46 @@ li.slick-active {
     line-height: 15.23px;
     color: #151875;
 }
+
 .detailsAll h2 {
     font-family: Josefin Sans;
-font-size: 36px;
-font-weight: 700;
-line-height: 36px;
-margin: 68px 0 32px;
-color: var(--text_3);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 36px;
+    margin: 68px 0 32px;
+    color: var(--text_3);
 }
+
+.detailsAll button {
+    margin-top: 53px;
+}
+
 .Related img {
     width: 300px;
     height: 200.27px;
 }
+
 .description {
     background: #FFEBF1;
     padding: 116px;
 }
+
 .description ul li button {
     font-family: 'Josefin Sans';
     font-size: 24px;
     line-height: 28.13px;
     color: #151875 !important;
-    padding:0;
+    padding: 0;
     margin-right: 40px;
 
-} 
+}
+
 .description ul .active {
     color: #151875 !important;
-    border-bottom: 1px  solid #151875;
+    border-bottom: 1px solid #151875;
     border-radius: 0;
 }
+
 .description h3 {
     font-family: 'Josefin Sans';
     font-size: 22px;
@@ -1205,12 +1218,15 @@ color: var(--text_3);
     line-height: 29px;
     color: #A9ACC6;
 }
+
 .description p i {
     margin-right: 7px;
 }
+
 .description p i:hover {
     color: #101750 !important;
 }
+
 .shipping .shipping-text {
     padding: 76px 0 55px;
 }
@@ -1299,9 +1315,11 @@ form .iputs label {
     line-height: 16.8px;
     color: #9CB1FF;
 }
+
 .shipping {
     margin-bottom: 116px;
 }
+
 .shipping .d-price .product-d p {
     font-family: 'Lato';
     font-size: 14px;
@@ -1345,6 +1363,7 @@ form .iputs label {
     line-height: 21.6px;
     color: #1D3178;
 }
+
 .cart h5 {
     font-family: 'Josefin Sans';
     font-size: 20px;
@@ -1447,6 +1466,7 @@ form .iputs label {
     border: none;
     border-radius: 3px;
 }
+
 .layer-t button a {
     font-family: 'Lato';
     font-size: 14px;
@@ -1468,6 +1488,7 @@ form .iputs label {
     border-radius: 3px;
     position: relative;
 }
+
 .order img {
     padding-bottom: 32px;
 }
@@ -1516,16 +1537,17 @@ form .iputs label {
 .order {
     padding: 200px 0;
 }
+
 .order .border-bottom-dash {
-    border-bottom: 1px dashed #D2D1D1
-    ;
-    padding-bottom:80px;
-    border-left: 1px dashed #D2D1D1
-    ;
+    border-bottom: 1px dashed #D2D1D1;
+    padding-bottom: 80px;
+    border-left: 1px dashed #D2D1D1;
 }
+
 .border-bottom-dash .clock {
     transform: translateX(-20px);
 }
+
 .contact .contact-d .blue {
     width: 25px;
     height: 25px;
@@ -1766,30 +1788,33 @@ form .iputs label {
     margin: 2px;
 
 }
-.say-clinet .slide-n{
+
+.say-clinet .slide-n {
     width: 18px;
     height: 3px;
     border-radius: 3px 0px 0px 0px;
-    background-color: #FF75B0
-    ;
+    background-color: #FF75B0;
     margin: 2px;
 
 }
-.say-clinet .slide-p{
+
+.say-clinet .slide-p {
     width: 18px;
     height: 3px;
     border-radius: 3px 0px 0px 0px;
-    background-color: #FF75B0
-    ;
+    background-color: #FF75B0;
     margin: 2px;
 
 }
+
 .about {
     margin-bottom: 209px;
 }
+
 .btn-m {
     margin-top: 35px;
 }
+
 @media (max-width:920px) {
     .nav-icon {
         gap: 0 4px;
@@ -1824,7 +1849,17 @@ form .iputs label {
     .img img {
         height: 100px;
     }
-    .layer-4  {
+
+    .layer-4 {
         flex-direction: column;
+    }
+
+    .cart .main .card-size {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cart .lists li {
+        flex: 0;
     }
 }
